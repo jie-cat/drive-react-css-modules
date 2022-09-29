@@ -1,0 +1,99 @@
+.hero {
+  background: url("https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    no-repeat center/cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.9);
+  padding: 5px 15px;
+}
+
+form label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+form input {
+  margin-top: 8px;
+}
+
+form .text,
+.from,
+.until {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+form input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: "Epilogue", sans-serif;
+}
+
+form .text_input {
+  width: 300px;
+}
+
+form .from,
+.until {
+  border-left: 1px solid #333;
+  padding-left: 5px;
+}
+
+.search_btn button {
+  display: none;
+}
+
+.search_btn .icon {
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: auto;
+  }
+
+  form .from,
+  .until {
+    border: none;
+  }
+
+  .search_btn button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search_btn button:hover {
+    background-color: #9802cf;
+    transition: background-color 1s;
+  }
+  .search_btn .icon {
+    display: none;
+  }
+  .border {
+    border: 0.8px solid #000;
+    margin: 5px;
+  }
+}
