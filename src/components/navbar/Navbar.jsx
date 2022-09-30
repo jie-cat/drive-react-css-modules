@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import Logo from "../../images/logo.png";
-import { AiOutlineSearch, AiOutlineUser, AiOutlineMenu } from "react-icons/ai";
+import {
+  AiOutlineSearch,
+  AiOutlineUser,
+  AiOutlineMenu,
+  AiOutlineClose,
+} from "react-icons/ai";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -34,8 +39,8 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className={styles.mobile_btn}>
-        <AiOutlineMenu onClick={() => setNav(!nav)} />
+      <div className={styles.mobile_btn} onClick={() => setNav(!nav)}>
+        {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
     </header>
   );
