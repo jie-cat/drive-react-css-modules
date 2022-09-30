@@ -1,0 +1,57 @@
+.driver {
+  max-width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.5rem;
+  gap: 1rem;
+  /* border: 2px solid blue; */
+}
+
+.left img {
+  width: 520px;
+}
+
+.right h1 {
+  font-size: 2rem;
+  padding-top: 8rem;
+  /* border: 2px solid red; */
+}
+
+.right h1 span {
+  color: rgb(164, 51, 164);
+}
+
+.right p {
+  padding: 1.5rem 0;
+  font-weight: bold;
+}
+
+.right button {
+  color: aliceblue;
+  background-color: rgb(146, 18, 146);
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.right button:hover {
+  background-color: rgb(170, 83, 170);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .driver {
+    grid-template-columns: 1fr;
+  }
+  .left img {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    flex-direction: center;
+  }
+  .right h1 {
+    padding: 0;
+  }
+}
