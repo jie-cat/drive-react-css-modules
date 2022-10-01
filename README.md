@@ -15,8 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Build Setup (Local)
 
 1. `yarn create react-app drive-react-css-modules`
-2. `yarn add swiper`
+2. `yarn add react-icons`
+3. `yarn add swiper`
   https://swiperjs.com/react
+
 
 ### `yarn start`
 
