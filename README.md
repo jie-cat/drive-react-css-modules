@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-使用ReactJS開發, 用CSS modules方式製作RWD網頁
+使用ReactJS開發, 用CSS modules方式與Swiper製作幻燈片完成RWD網頁
 
 <div align="center"><img src="https://github.com/jie-cat/drive-react-css-modules/blob/main/src/images/project.png" width="80%"></div>
 
