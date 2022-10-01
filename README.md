@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+使用ReactJS開發, 用CSS modules方式製作RWD網頁
+
+<div align="center"><img src="https://github.com/jie-cat/drive-react-css-modules/blob/main/src/images/project.png" width="80%"></div>
 
 ### `yarn start`
 
