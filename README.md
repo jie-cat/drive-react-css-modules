@@ -8,6 +8,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <div align="center"><img src="https://github.com/jie-cat/drive-react-css-modules/blob/main/src/images/project.png" width="80%"></div>
 
+## Requirement
+
+前端（Frontend）：NVM、Yarn、Node.js
+
+## Build Setup (Local)
+
+1. `yarn create react-app drive-react-css-modules`
+2. `yarn add swiper`
+  https://swiperjs.com/react
+
 ### `yarn start`
 
 Runs the app in the development mode.\
